@@ -24,34 +24,38 @@ Fair Share is a receipt expense splitting application that simplifies sharing bi
 
 ## Tech Stack
 
-**Frontend**
-- Next.js (App Router)
-- React
-- TypeScript
-- Tailwind CSS
-
-**Backend**
-- Firebase Authentication
-- Firebase Realtime Database
-
-**AI**
-- Google Gemini 1.5 for receipt parsing and structured data extraction
-
-**Deployment**
-- Vercel
-
-## How It Works
-
-1. Upload a receipt image.
-2. Gemini extracts the receipt contents into structured data.
-3. Review and select items to split.
-4. Fair Share calculates each user's portion.
-5. Expenses are updated automatically across users.
+- **Frontend:** Next.js (App Router), React, TypeScript, Tailwind CSS
+- **Backend & Database:** Firebase Authentication, Firebase Realtime Database
+- **AI Processing:** Google Gemini 1.5 for receipt parsing and structured data extraction
+- **Deployment:** Vercel
 
 ## Getting Started
 
-Clone the repository:
+### Clone the Repository
 
 ```bash
 git clone <repository-url>
 cd fair-share
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Configure Environment Variables
+
+Create a `.env.local` file and add your Firebase configuration values.
+
+### Run the Development Server
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```
+http://localhost:3000
+```
