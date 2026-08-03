@@ -34,7 +34,7 @@ Fair Share is a receipt expense splitting application that simplifies sharing bi
 ### Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/neelkanth-s/Fair-Share.git
 cd fair-share
 ```
 
